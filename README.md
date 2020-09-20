@@ -2,7 +2,7 @@
 
 [Live Site](https://alan-ai-news-app-3d2d1.firebaseapp.com/)
 
-https://i.postimg.cc/529s0PVf/Screenshot-2020-09-20-220330.png
+[Screenshot](https://i.postimg.cc/529s0PVf/Screenshot-2020-09-20-220330.png)
 
 ## Introduction
 This is a Conversational Voice Controlled React News Application using Alan AI.I used React to create my project. Instead of using CSS, I used Material-UI as it is a fast convenient tool for responsive web design.
