@@ -7,6 +7,7 @@ import wordsToNumbers from 'words-to-numbers';
 const alanKey = '55d277b06f93cb74bdade40a780c66412e956eca572e1d8b807a3e2338fdd0dc/stage';
 
 
+
 const App = () => {
   const [newsArticle, setNewsArticle] = useState([]);
   const [activeArticle, setActiveArticle] = useState(-1);
@@ -14,6 +15,7 @@ const App = () => {
   useEffect(() => {
     alanBtn({
       key: alanKey,
+      
       onCommand: ({command, articles, number}) => {
         if(command === 'newHeadlines'){
           setNewsArticle(articles);

@@ -6,7 +6,7 @@ import classNames from 'classnames';
 const NewsCard = ({article: {description, publishedAt, source, title, url, urlToImage} , i , activeArticle}) => {
     const classes= useStyles();
     const [elRefs, setElRefs] = useState([]);
-    const scrollToRef = (ref) => window.scroll(0, ref.current.offsetTop - 50);
+    const scrollToRef = (ref) => window.scroll(0, ref.current.offsetTop - 20);
 
     useEffect(() => {
         setElRefs((refs) => Array(20).fill().map((_, j) => refs[j] || createRef()) );
